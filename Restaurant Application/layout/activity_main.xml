@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABC Restaurant" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/ind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INDIAN"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/chi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="CHINESE" />
+
+    <Button
+        android:id="@+id/thai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="THAI" />
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Total Price" />
+
+</LinearLayout>
